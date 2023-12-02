@@ -1,0 +1,26 @@
+﻿<Window x:Class="QL_Nhanvien_2.ThemMoi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QL_Nhanvien_2"
+        mc:Ignorable="d"
+        Title="ThemMoi" Height="450" Width="400">
+    <Grid>
+        <Label Content="Mã nhân viên" HorizontalAlignment="Left" Margin="56,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="Họ tên:" HorizontalAlignment="Left" Margin="60,92,0,0" VerticalAlignment="Top"/>
+        <Label Content="Giới tính" HorizontalAlignment="Left" Margin="63,130,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ngày tháng năm sinh" HorizontalAlignment="Left" Margin="56,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tiền lương ngày" HorizontalAlignment="Left" Margin="60,202,0,0" VerticalAlignment="Top"/>
+        <Label Content="Số ngày làm việc" HorizontalAlignment="Left" Margin="58,240,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMaNhanVien" HorizontalAlignment="Left" Margin="206,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtHoTen" HorizontalAlignment="Left" Margin="206,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtTienLuongNgay" HorizontalAlignment="Left" Margin="206,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtSoNgayLamViec" HorizontalAlignment="Left" Margin="206,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="radNam" IsChecked="True" Content="Nam" HorizontalAlignment="Left" Margin="206,140,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radNu" Content="Nữ" HorizontalAlignment="Left" Margin="273,141,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpkNgaySinh" HorizontalAlignment="Left" Margin="206,168,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnDongForm" Content="Đóng form" HorizontalAlignment="Left" Margin="208,316,0,0" VerticalAlignment="Top" Click="btnDongForm_Click"/>
+
+    </Grid>
+</Window>

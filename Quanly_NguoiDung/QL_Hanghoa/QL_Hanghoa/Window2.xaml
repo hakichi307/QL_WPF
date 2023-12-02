@@ -1,0 +1,22 @@
+﻿<Window x:Class="QL_Hanghoa.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QL_Hanghoa"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="dgv2"  AutoGenerateColumns="False" AlternatingRowBackground="AntiqueWhite" CanUserAddRows="False"  Margin="36,139,37,72">
+
+            <DataGrid.Columns >
+                <DataGridTextColumn Header="Mã hàng" />
+                <DataGridTextColumn Header="Tên hàng" />
+                <DataGridTextColumn Header="Mã danh mục" />
+                <DataGridTextColumn Header="Đơn giá bán" />
+                <DataGridTextColumn Header="Số lượng còn" />
+                <DataGridTextColumn Header="Thành tiền" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
